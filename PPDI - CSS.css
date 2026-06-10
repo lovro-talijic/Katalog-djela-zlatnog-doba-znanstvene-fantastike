@@ -1,0 +1,63 @@
+.body{
+
+    background-image: url("space.jpg");
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+.top div{
+    max-width: 80%;
+}
+
+.top h1{
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.top h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.searchsection{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.searchbar{
+    text-decoration-color: aqua;
+    
+}
+
+.main{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-sidebar{
+    background-color: gray;
+
+}
+
+.main-content{
+    max-width: 60%;
+}

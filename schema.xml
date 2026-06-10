@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  
+  <xs:element name="Knjige">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="Knjiga" maxOccurs="unbounded">
+
+          <xs:complexType>
+
+            <xs:sequence>
+
+              <xs:element name="Naslov" type="xs:string"/>
+              <xs:element name="Autor" type="xs:string"/>
+
+              <xs:element name="Slika" type="xs:string" minOccurs="0"/>
+
+              <xs:element name="Publikacija">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Izdavac" type="xs:string"/>
+                    <xs:element name="Datum" type="xs:string"/>
+                    <xs:element name="Edicija" type="xs:string"/>
+                    <xs:element name="Format" type="xs:string"/>
+                    <xs:element name="Izdanje" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Klasifikacija">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="Zanr">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Roman"/>
+                          <xs:enumeration value="Zbirka kratkih priča"/>
+                          <xs:enumeration value="Novela"/>
+                          <xs:enumeration value="Non-fiction"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                    <xs:element name="Tema">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Svemirska Opera"/>
+                          <xs:enumeration value="Cyberpunk"/>
+                          <xs:enumeration value="Distopijska fikcija"/>
+                          <xs:enumeration value="Utopijska fikcija"/>
+                          <xs:enumeration value="Ljudsko-Izvanzemaljski susret"/>
+                          <xs:enumeration value="Putovanje kroz vrijeme"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="Sazetak" type="xs:string"/>
+
+            </xs:sequence>
+
+            <!-- ATTRIBUTES -->
+            <xs:attribute name="isbn" type="xs:string" use="required"/>
+            <xs:attribute name="language" type="xs:string" use="required"/>
+
+          </xs:complexType>
+
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

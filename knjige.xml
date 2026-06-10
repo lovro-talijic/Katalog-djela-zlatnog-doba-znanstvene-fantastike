@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Knjige xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="knjige.xsd">
+
+    <Knjiga isbn="9780451524935" language="us">
+        <Naslov>Foundation</Naslov>
+        <Autor>Isaac Asimov</Autor>
+
+        <Slika>https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Foundation_and_empire.jpg/250px-Foundation_and_empire.jpg</Slika>
+
+        <Publikacija>
+            <Izdavac>Gnome Press</Izdavac>
+            <Datum>1951</Datum>
+            <Edicija>Foundation Series</Edicija>
+            <Format>Hardcover</Format>
+            <Izdanje>First</Izdanje>
+        </Publikacija>
+
+        <Klasifikacija>
+            <Zanr>Roman</Zanr>
+            <Tema>Svemirska Opera</Tema>
+        </Klasifikacija>
+
+        <Sazetak>Matematičar predviđa krah carstva.</Sazetak>
+    </Knjiga>
+
+    <Knjiga isbn="9780553293357" language="hr">
+        <Naslov>Starship Troopers</Naslov>
+        <Autor>Robert A. Heinlein</Autor>
+
+        <Slika>https://upload.wikimedia.org/wikipedia/commons/e/ea/Starship_Troopers_%281959%29_front_cover%2C_first_edition.jpg</Slika>
+
+        <Publikacija>
+            <Izdavac>Putnam</Izdavac>
+            <Datum>1959</Datum>
+            <Edicija>Standalone</Edicija>
+            <Format>Paperback</Format>
+            <Izdanje>First</Izdanje>
+        </Publikacija>
+
+        <Klasifikacija>
+            <Zanr>Roman</Zanr>
+            <Tema>Ljudsko-Izvanzemaljski susret</Tema>
+        </Klasifikacija>
+
+        <Sazetak>Međuzvjezdani rat ljudi i izvanzemaljaca.</Sazetak>
+    </Knjiga>
+
+    <Knjiga isbn="9780345339683" language="gb">
+        <Naslov>The Martian Chronicles</Naslov>
+        <Autor>Ray Bradbury</Autor>
+
+        <Slika>https://i.ebayimg.com/images/g/mvIAAOSw36dnYFhB/s-l500.jpg</Slika>
+
+        <Publikacija>
+            <Izdavac>Ballantine Books</Izdavac>
+            <Datum>1950</Datum>
+            <Edicija>Chronicles</Edicija>
+            <Format>Paperback</Format>
+            <Izdanje>First</Izdanje>
+        </Publikacija>
+
+        <Klasifikacija>
+            <Zanr>Zbirka kratkih priča</Zanr>
+            <Tema>Utopijska fikcija</Tema>
+        </Klasifikacija>
+
+        <Sazetak>Priče o kolonizaciji Marsa.</Sazetak>
+    </Knjiga>
+
+    <Knjiga isbn="9780553296990" language="de">
+        <Naslov>Dune</Naslov>
+        <Autor>Frank Herbert</Autor>
+
+        <Slika>https://i.ebayimg.com/images/g/trcAAOSwy-lmJSWZ/s-l400.jpg</Slika>
+
+        <Publikacija>
+            <Izdavac>Ace Books</Izdavac>
+            <Datum>1965</Datum>
+            <Edicija>Dune Series</Edicija>
+            <Format>Hardcover</Format>
+            <Izdanje>First</Izdanje>
+        </Publikacija>
+
+        <Klasifikacija>
+            <Zanr>Roman</Zanr>
+            <Tema>Distopijska fikcija</Tema>
+        </Klasifikacija>
+
+        <Sazetak>Politika i ratovanje oko neprocjenjivog resursa.</Sazetak>
+    </Knjiga>
+
+    <Knjiga isbn="9780441172719" language="us">
+        <Naslov>Stranger in a Strange Land</Naslov>
+        <Autor>Robert A. Heinlein</Autor>
+
+        <Slika>https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1156897088i/350.jpg</Slika>
+
+        <Publikacija>
+            <Izdavac>Putnam</Izdavac>
+            <Datum>1961</Datum>
+            <Edicija>Standalone</Edicija>
+            <Format>Paperback</Format>
+            <Izdanje>First</Izdanje>
+        </Publikacija>
+
+        <Klasifikacija>
+            <Zanr>Novela</Zanr>
+            <Tema>Putovanje kroz vrijeme</Tema>
+        </Klasifikacija>
+
+        <Sazetak>Čovjek koji je odrastao na Marsu dolazi na Zemlju.</Sazetak>
+    </Knjiga>
+
+</Knjige>
