@@ -20,7 +20,6 @@ $currentPage = 'home';
 
 <body class="body">
 
-<!-- HEADER -->
 <section class="top" style="
     background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
@@ -36,7 +35,6 @@ $currentPage = 'home';
     </div>
 </section>
 
-<!-- NAV -->
 <nav style="
     display: flex;
     gap: 15px;
@@ -59,7 +57,6 @@ $currentPage = 'home';
 
 </nav>
 
-<!-- MAIN -->
 <section class="mainsection" style="
     display: flex;
     justify-content: center;
