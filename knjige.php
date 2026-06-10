@@ -111,7 +111,6 @@ $currentPage = 'katalog';
     <h2>Katalog knjiga</h2>
 </section>
 
-<!-- NAV -->
 <nav style="
     display: flex;
     gap: 15px;
@@ -134,7 +133,6 @@ $currentPage = 'katalog';
 
 </nav>
 
-<!-- SEARCH -->
 <section class="searchsection">
     <form method="get">
         <input class="searchbar" type="search" name="q"
@@ -148,7 +146,6 @@ $currentPage = 'katalog';
     </form>
 </section>
 
-<!-- MAIN -->
 <section class="main">
 
     <article class="main-sidebar">
